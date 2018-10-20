@@ -5,7 +5,7 @@ categories: [typescript]
 date: 2018-07-18 17:00:12
 ---
 直接上代码，注释里写的挺清楚的了。
-
+<!--more-->
 其中Math.floar(num)方法会返回一个小于等于传入值num的整数。
 ```typescript
 /**

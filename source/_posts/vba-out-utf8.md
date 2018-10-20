@@ -5,6 +5,7 @@ tags: [vba,utf-8,输出]
 categories: [other]
 ---
 以前使用excel导出xml时使用的， 默认导出的xml貌似是ANSI编码， 调用这个转码可以使导出的文件为UTF-8编码
+<!--more-->
 ```css
 Public Function writeOut(cText As String, file As String) As Integer
     On Error GoTo errHandler

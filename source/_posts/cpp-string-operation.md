@@ -5,6 +5,7 @@ tags: [c++, 字符串, string]
 categories: [c++]
 ---
 C++中常见的字符串操作， 直接看代码， 注释比较详细
+<!--more-->
 ```cpp
 #include <iostream>
 using namespace std;

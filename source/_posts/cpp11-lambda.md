@@ -11,6 +11,7 @@ C++11中的lambda表达式规范如下：
 [capture](params) {body}
 [capture] {body}
 ```
+<!--more-->
 其中
 
 (1) 是完整的 lambda 表达式形式，
