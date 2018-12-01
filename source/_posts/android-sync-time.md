@@ -23,7 +23,7 @@ adb shell settings get global ntp_server
 ```
 果然返回了null, 这就是说明ntp server是空的, 所以不能同步网络时间
 
-![get](android-sync-time/get.png)
+![get](get.png)
 
 然后搜索到阿里云的ntp服务器地址
 ```
@@ -41,6 +41,6 @@ adb shell settings put global ntp_server time6.aliyun.com
 ```
 执行成功不会有任何提示, 可以再次执行上边的get命令看一下
 
-![put](android-sync-time/put.png)
+![put](put.png)
 
 可以看到返回了刚才设置的地址, 说明设置成功了. 重启一下手机, 时间能够正常同步了.
